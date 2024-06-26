@@ -39,3 +39,21 @@ Zawierają:
 - linki do innych ADRów
 - inne możliwe rozwiązania z informacją, czemu nie zostały wybrane
 Określają wpływ driverów na decyzję, są niemutowalne, cały team ich używa i dodają odnośniki do nich w kodzie.
+
+## 4. Metryki
+Metryka jest kwantyfikacją drivera, zapewnia jednoznaczne rozumienie drivera.
+
+### Jaka musi być
+- jednoznaczna
+- mierzalna
+- łatwo dostępna
+
+### Podział
+1) dłużna - im niższa wartość, tym lepiej, np. czas backupu
+2) jakościowa - im więcej, tym lepiej, np. szybkość kopiowania danych
+
+### Wartości metryk
+- aktualna
+- limit 
+- cel
+- ideał
